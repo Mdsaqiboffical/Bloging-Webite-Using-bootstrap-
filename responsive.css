@@ -67,8 +67,10 @@
     }
 }
 
-@media screen and (max-width:678px){
-    #section-6 {
-        
+@media screen and (max-width:1199px){
+    .card-1, .card-2, .card-3, .card-4{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 2rem;
     }
 }
