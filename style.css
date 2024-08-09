@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 body {
@@ -154,14 +155,6 @@ h5 {
   text-decoration: underline;
 }
 
-/* .card-1, .card-3, .card-4 {
-  border: 2px solid var(--heading-color-1);
-  border-radius: .5rem;
-} */
-/* .card-2 {
-  border: 2px solid #1A4884;
-  border-radius: .5rem;
-} */
 .card4-text-1 {
   background-color: #84C0FC;
   border-radius: 6px;
@@ -171,21 +164,12 @@ h5 {
   padding: 6px;
 }
 
-.footer-left-text {
-  height: 83vh;
-  background-color: #2C76D6;
-}
-
-.footer-right-text {
-  height: 83vh;
-  background-color: var(--butn-color-1);
-}
-
-.footer-pera {
-  padding: 0;
-  font-size: 1rem;
-  line-height: 2rem;
-  font-weight: 400;
+#footer {
+  height: 100%;
+  width: 100%;
+  background-color: #196BDE;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
 }
 
 .footer-img {
@@ -194,7 +178,7 @@ h5 {
 }
 
 .footer-icon {
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   color: var(--heading-color-2);
   letter-spacing: 1rem;
 }
@@ -251,4 +235,4 @@ h5 {
 .footer-pera:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
-}
+} 
